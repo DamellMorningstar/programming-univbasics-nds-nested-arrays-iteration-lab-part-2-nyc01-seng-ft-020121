@@ -9,9 +9,11 @@ def find_min_in_nested_arrays(src)
     element_index = 0
     while element_index < src[row_index].length do
        inner_element = src[row_index][element_index]
+       lowest_temps << inner_element
       element_index +=1
     end
     row_index +=1
   end
-lowest_temps << inner_element
+lowest_temps
+#lowest_temps << inner_element
 end
