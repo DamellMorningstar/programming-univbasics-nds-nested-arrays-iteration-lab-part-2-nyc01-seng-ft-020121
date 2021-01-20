@@ -9,4 +9,4 @@ def find_min_in_nested_arrays(src)
    least_results << x
  row_index += 1
 end
-return least_results
+ 
