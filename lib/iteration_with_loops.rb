@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
     while element_index < src[row_index].length do
        inner_element = src[row_index][element_index]
        min_element = inner_element[0]
-       if inner_element <  25
+       if inner_element <  min_element
        lowest_temps << inner_element
        lowest_temps = lowest_temps
      end
