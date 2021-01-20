@@ -11,7 +11,7 @@ def find_min_in_nested_arrays(src)
        inner_element = src[row_index][element_index]
        if inner_element <  25
        lowest_temps << inner_element
-       lowest_temps = lowest_temps.min { |a, b|  }
+       lowest_temps = lowest_temps.sort.min
      end
       element_index +=1
     end
