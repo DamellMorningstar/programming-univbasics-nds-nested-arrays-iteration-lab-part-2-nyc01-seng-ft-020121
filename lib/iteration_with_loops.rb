@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(src)
   while row_index < src.length do
     element_index = 0
     while element_index < src[row_index].length do
-       inner_element = src[row_index][element_index].min { |a, b|  }
+       inner_element = src[row_index][element_index]
        lowest_temps << inner_element
       element_index +=1
     end
